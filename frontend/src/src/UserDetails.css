@@ -1,0 +1,61 @@
+/* Center the entire page like Home2 */
+.user-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* vertical center */
+  align-items: center;       /* horizontal center */
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  padding-right: 600px;
+}
+
+/* Card Styling */
+.details-form {
+  width: 380px;
+  padding: 28px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 25px rgba(0,0,0,0.35);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Input Fields */
+.details-form input,
+.details-form select {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: rgba(255,255,255,0.25);
+  color: #fff;
+}
+
+.details-form input::placeholder {
+  color: #e0e0e0;
+}
+
+.details-form select {
+  color: #fff;
+}
+
+/* Submit Button */
+.details-form button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #6a11cb 0%, #d91dff 100%);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.details-form button:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,53 @@
+.dashboard-container {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  color: white;
+  padding-right: 500px;
+}
+
+.title {
+    padding-top: 60px;
+  margin-bottom: 20px;
+}
+
+.charts-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.chart-box {
+  width: 600px;
+  height: 500px;
+  background: rgba(246, 116, 255, 0.221);
+  padding: 20px;
+  border-radius: 14px;
+  backdrop-filter: blur(10px);
+}
+
+.chart-box canvas {
+  max-width: 600px !important;
+  max-height: 400px !important;
+  margin: 100px auto;
+  padding-left: 40px;
+}
+
+.table-title {
+  margin-top: 50px;
+}
+
+.records-table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+  background: rgba(255,255,255,0.08);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.records-table th, .records-table td {
+  padding: 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
